@@ -1,2 +1,1 @@
-# drupal8-powerbi
-Integration of Power BI reports into Drupal 8
+# Integration of Power BI reports into Drupal 8
