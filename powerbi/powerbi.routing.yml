@@ -1,0 +1,27 @@
+powerbi.configuration:
+  path: '/admin/config/services/powerbi'
+  defaults:
+    _form: '\Drupal\powerbi\Form\PowerBiConfigurationForm'
+    _title: 'Power BI API Configuration'
+  requirements:
+    _permission: 'powerbi admin config'
+  options:
+    _admin_route: TRUE
+
+powerbi.dashboard:
+  path: '/powerbi-dashboard'
+  defaults:
+    _controller: '\Drupal\powerbi\Controller\PowerBiController::showDashboard'
+    _title: 'Power BI Dashboard'
+    display: 'dashboards'
+  requirements:
+    _permission: 'access content'
+
+powerbi.reports:
+  path: '/powerbi-reports'
+  defaults:
+    _controller: '\Drupal\powerbi\Controller\PowerBiController::showReports'
+    _title: 'Power BI Reports'
+    display: 'reports'
+  requirements:
+    _permission: 'access content'

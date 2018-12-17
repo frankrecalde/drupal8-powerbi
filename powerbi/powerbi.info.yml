@@ -1,0 +1,5 @@
+name: PowerBI
+type: module
+description: Provides an integration with Microsoft Power BI Embedded, including dashboards, reports, report visuals, Q&A, and tiles.
+package: Oakton
+core: 8.x

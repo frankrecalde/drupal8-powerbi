@@ -1,0 +1,17 @@
+{#
+/**
+ * @file
+ * Template for menu item content.
+ *
+ * - $debug boolean TRUE or FALSE.
+ * - $response contains data returned form power bi service call.
+ */
+#}
+{{ attach_library('powerbi/powerbi-render') }}
+
+<div id="reportContainer"></div>
+{% if (response and debug) %}
+    <div id="debug-section">
+        {{ response|json_encode(constant('JSON_PRETTY_PRINT')) }}
+    </div>
+{% endif %}

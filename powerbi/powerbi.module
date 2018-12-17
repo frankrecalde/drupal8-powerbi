@@ -1,0 +1,27 @@
+<?PHP
+
+/**
+ * @file
+ */
+
+/**
+ * Implement hook_theme.
+ *
+ */
+function powerbi_theme($existing, $type, $theme, $path)
+{
+  return [
+    'powerbi_dashboard' => [
+      'variables' => [
+        'debug' => null,
+        'response' => null
+      ]
+    ],
+    'powerbi_report' => [
+      'variables' => [
+        'debug' => null,
+        'response' => null
+      ]
+    ]
+  ];
+}

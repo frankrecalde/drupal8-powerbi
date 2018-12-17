@@ -1,0 +1,4 @@
+powerbi.configuration:
+  title: Configure
+  route_name: powerbi.configuration
+  base_route: powerbi.configuration

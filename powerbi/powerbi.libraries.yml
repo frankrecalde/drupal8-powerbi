@@ -1,0 +1,10 @@
+powerbi-render:
+  css:
+    theme:
+      css/powerbi.css: {}
+  js:
+    js/powerbi.js: {}
+    js/powerbi.local.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings

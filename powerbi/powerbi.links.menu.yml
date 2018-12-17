@@ -1,0 +1,5 @@
+powerbi.configuration:
+  title: Power BI API Integration
+  route_name: powerbi.configuration
+  description: 'Configuration & information for the Power BI API integration.'
+  parent: system.admin_config_services
